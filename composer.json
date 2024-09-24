@@ -1,0 +1,27 @@
+{
+    "name": "api-connect/ma-ri-api-connect",
+    "description": "api-connect/ma-ri-api-connect",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "ApiConnect\\MaRiApiConnect",
+        "label": {
+            "de-DE": "Skeleton plugin",
+            "en-GB": "Skeleton plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiConnect\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiConnect\\Tests\\": "tests/"
+        }
+    }
+}
